@@ -2,8 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-@import url('https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap');
+@import url("https://fonts.googleapis.com/css2?family=Lobster&family=Montserrat:wght@100;200;300;400;500;600;700&display=swap");
 
 body {
-    background: #ece7e1;
+  background: #ece7e1;
+}
+
+@media screen and (min-width: 768px) {
+  .writing {
+    writing-mode: vertical-rl;
+  }
 }
