@@ -1,23 +1,71 @@
-<!doctype html>
+<!DOCTYPE html>
 <html>
-<head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="./dist/output.css" rel="stylesheet">
-  <link href="./src/Assets/css/input.css" rel="stylesheet" />
-  <link rel="stylesheet" href="https://unicons.iconscout.com/release/v4.0.8/css/line.css">
-</head>
-<body>
-  <header>
-    <nav>
-      <ul>
-        <li><a href="#">linkedIn</a></li>
-        <li><i class="uil uil-github"></i></li>
-        <li><i class="uil uil-linkedin text-blue-800"></i></li>
-        <li><i class="uil uil-twitter"></i></i></li>
-        <li><a href="#">Twitter</a></li>
-        <li><a href="#">Github</a></li>
-      </ul>
-  </header>
-</body>
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link href="./dist/output.css" rel="stylesheet" />
+    <link href="./src/Assets/css/input.css" rel="stylesheet" />
+    <link
+      rel="stylesheet"
+      href="https://unicons.iconscout.com/release/v4.0.8/css/line.css"
+    />
+  </head>
+  <body class="bg-accent p-4">
+    <header class="text-[30px] py-3">
+      <nav class="flex flex-row items-center justify-between">
+        <div class="flex gap-x-14 items-center">
+          <ul class="flex gap-x-4">
+            <li class="cursor-pointer">
+              <a><i class="uil uil-github"></i></a>
+            </li>
+            <li class="cursor-pointer">
+              <a><i class="uil uil-linkedin hover:text-blue-800"></i></a>
+            </li>
+            <li class="cursor-pointer">
+              <a><i class="uil uil-twitter hover:text-blue-600"></i></a>
+            </li>
+          </ul>
+          <span
+            class="h-10 w-[2px] transform rotate-[90deg] bg-font-black"
+          ></span>
+        </div>
+        <div class="flex gap-3 text-sm">
+          <p class="">&copy;</p>
+          <p>/</p>
+          <p>2023</p>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section id="hero" class="my-12 flex flex-col items-start tracking-wide">
+        <p class="uppercase font-semibold tracking-wider pb-4">
+          Umolo Blessing Johnson
+        </p>
+        <p>Frontend developer</p>
+        <p>
+          Currently working as an intern at
+          <a
+          class="underline font-medium"
+            href="https://axia.africa/"
+            target="_blank"
+            referrerpolicy="no-referrer"
+            >Axia Africa</a
+          >
+        </p>
+      </section>
+      <section class="text-[4rem] uppercase font-[cursive]">
+        <ul>
+          <li class="hover:italic hover:text-gray-500">
+            <a href="#">about</a>
+          </li>
+          <li>
+            <a href="#">projects</a>
+          </li>
+          <li>
+            <a href="#">contact</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+  </body>
 </html>
